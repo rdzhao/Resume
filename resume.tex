@@ -1,0 +1,132 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% character encoding
+\usepackage[utf8]{inputenc}     
+\usepackage{libertine}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                        % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+\definecolor{lightblue}{rgb}{0.22,0.45,0.7}
+
+% personal data
+\firstname{Rundong}
+\familyname{Zhao}
+%\extrainfo{\url{http://markliu.me}} % optional, remove the line if not wanted
+\phone[mobile]{+1~(517)~802-7368}
+\email{zhaorund@msu.edu}
+\homepage{https://rdzhao.github.io/}
+\extrainfo{https://github.com/rdzhao/}  
+\photo[64pt][0.4pt]{profile}
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%content
+%----------------------------------------------------------------------------------
+\begin{document}
+	\maketitle
+	
+	\section{Summary}
+	\cventry{$\bullet$}{Highlight Skills}{Professional in C++ programming language. Familiar with professional geometric data processing and rendering techniques. Familiar with adequate mathematical and physical knowledge required in advanced computer graphics projects, including differential geometry and continuum mechanics}{}{}{}
+	%\cventry{$\bullet$}{Professional interest}{Any position that my passion for computer graphics and my competence in C++ programming can make a difference.}{}{}{}
+	\cventry{$\bullet$}{Research Interests}{Computer Graphics, Geometric Processing and Geometric Data Analysis}{}{}{}
+	
+	
+	\section{Education}
+	\cventry{2014 -- now}{Ph.D., Computer Science}{Michigan State University}{East Lansing, MI}{}{}
+	\cvline{Advisor:}{\small Dr. Yiying Tong}
+	\cvline{GPA:}{\small 3.95/4.0}
+	\cventry{2010 -- 2014}{BS, Information and Computing Science}{Zhejiang University}{Hangzhou, Zhejiang, P.R. China}{}{}
+	\cvline{GPA:}{\small 3.52/4.0}
+	
+	
+	\section{Research Experience}	
+	\cventry{2014 -- now}{Research Assistant}{Michigan Statu University}{East Lansing, MI}{}
+	{Advisor: Yiying Tong \\
+	Involve in geometric processing research and its application in geometric and topological analysis in biomolecule, including Laplacian spectral analysis, Hodge decomposition, protein pocket detection and De-Rahm cohomology applications in biomolecule.}
+	\cventry{2016 spring}{Visiting Researcher}{California Institute of Technology}{Pasadena, CA}{}
+	{Advisor: Mathieu Desbrun and Yiying Tong}
+	\cventry{2019 summer}{Visiting Researcher}{Zhejiang University}{Hangzhou, Zhejiang, China}{}
+	{Advisor: Jin Huang \\}
+	
+	\section{Publication}
+	\cventry{2019}
+	{ 3D Hodge Decompositions of Edge- and Face-based Vector Fields}{}{}{}
+	{\textbf{Rundong Zhao}\textnormal{, Mathieu Desbrun, Guo-Wei Wei, Yiying Tong}. \\
+	\textit{ACM Transactions on Graphics}. (\textbf{\textcolor{lightblue}{SIGGRAPH Asia 2019}})}{}
+	
+	\cventry{2019}
+	{ Evolutionary de Rham-Hodge Method}{}{}{}
+	{\textnormal{Jiahui Chen, } \textbf{Rundong Zhao} \textnormal{, Yiying Tong, Guo-Wei Wei}. \\
+	\textit{arXiv preprint}.}{}
+
+	\cventry{2019}
+	{ The de Rham-Hodge Analysis and Modeling of Biomolecules}{}{}{}
+	{\textbf{Rundong Zhao}\textnormal{, Menglun Wang, Yiying Tong, Guo-Wei Wei}. \\
+	\textit{arXiv preprint}.}{}
+	
+	\cventry{2018}
+	{ Protein Pocket Detection via Convex Hull Surface Evolution and Associated Reeb Graph}{}{}{}
+	{\textbf{Rundong Zhao}\textnormal{, Zixuan Cang, Yiying Tong, Guo-Wei Wei}. \\
+	\textit{Bioinformatics}. (\textbf{\textcolor{lightblue}{European Conference on Computitional Biology 2018}})}{}
+	
+	\cventry{2018}
+	{ Divide-and-Conquer Strategy for Large-Scale Eulerian Solvent Excluded Surface}{}{}{}
+	{\textbf{Rundong Zhao}\textnormal{, Menglun Wang, Yiying Tong, Guo-Wei Wei}, \\
+	\textit{Communications in Information and Systems}}{}
+	
+	\cventry{2017}
+	{ ESES : Software for Eulerian Solvent Excluded Surface}{}{}{}
+	{\textnormal{Beibei Liu, Bao Wang, }\textbf{Rundong Zhao}\textnormal{, Yiying Tong, Guo-Wei Wei}, \\ 
+	\textit{Journal of Computational Chemistry}}{}
+	
+	\cventry{2015}
+	{ Isogeometric Analysis of Integral Equations using Subdivision}{}{}{}
+	{\textnormal{Jie Li, Daniel Dault, }\textbf{Rundong Zhao}\textnormal{, Beibei Liu, Yiying Tong, Balasubramanianm, Shanker}, \\
+	\textit{IEEE International Symposium on Antennas and Propagation \& USNC/URSI National Radio Science Meeting, 2015}}{}
+	
+	\cventry{2015}
+	{ Subdivision Surfaces for Electromagnetic Integral Equations}{}{}{}
+	{\textnormal{Daniel Dault, Jie Li, Beibei Liu, }\textbf{Rundong Zhao}\textnormal{, Yiying Tong, Balasubramanianm, Shanker}, \\
+	\textit{IEEE International Symposium on Antennas and Propagation \& USNC/URSI National Radio Science Meeting, 2015}}{}
+	
+	\section{Talk}
+	\cventry{2018.09}{European Conference on Computitional Biology 2018}{}{}{}{Protein Pocket Detection via Convex Hull Surface Evolution and Associated Reeb Graph, \textit{Athens, Greece}}{}
+	\cventry{2019.11}{SIGGRAPH Asia 2019}{}{}{}{3D Hodge Decompositions of Edge- and Face-based Vector Fields, \textit{Brisbane, Australia}}{}
+	
+	\section{Technical Experience}
+	\cvline{Languages}{C, C++, Matlab, Python (check github repository)}
+	\cvline{Packages}{CGAL, OpenVDB, OpenMP, TBB, Qt}
+	\cvline{Software}{Blender}
+	\cvline{Capabilities}{Geometric processing, modeling.} 
+	
+	%\section{Contact}
+	%\cvline{Email}{zhaorund@msu.edu}
+	%\cvline{Mobile Phone}{(517)802-7368}
+	%\cvline{Address}{Lab 3315, Engineering Building, 428 S. Shaw Lane, East Lansing, MI 48824}
+	%\cvline{Web}{https://rdzhao.github.io/}
+	%\cvline{Github}{https://github.com/rdzhao/}
+	
+	
+\end{document}
